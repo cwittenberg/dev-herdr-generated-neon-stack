@@ -1,0 +1,45 @@
+{
+  "schema": "ricewm.app-plan/v1",
+  "requirements": [
+    "Complete Tetris with seven pieces, collision, rotation, line clearing, score, levels, hold and next previews.",
+    "Down arrow instantly drops and locks the active piece.",
+    "Efficient native rendering with a cool neon design and easy keyboard and mouse UX."
+  ],
+  "windows": [
+    {
+      "id": "main",
+      "purpose": "Play Tetris"
+    }
+  ],
+  "state": [
+    {
+      "id": "game",
+      "scope": "session",
+      "module": "model.mjs",
+      "persistence": "none"
+    }
+  ],
+  "resources": [
+    "image"
+  ],
+  "journeys": [
+    {
+      "id": "play",
+      "title": "Play, drop, pause and restart",
+      "windows": [
+        "main"
+      ],
+      "steps": [
+        "Start with P",
+        "Move and rotate a piece",
+        "Press Down to drop and lock",
+        "Pause and verify stable position",
+        "Restart and verify empty board"
+      ],
+      "capabilities": [
+        "hardDrop",
+        "newGame"
+      ]
+    }
+  ]
+}

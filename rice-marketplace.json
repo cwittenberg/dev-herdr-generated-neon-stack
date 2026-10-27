@@ -1,0 +1,37 @@
+{
+  "schema": "ricewm.recipe-marketplace/v1",
+  "name": "Tetris",
+  "version": "1.0.0",
+  "summary": "Tetris",
+  "license": "CC0-1.0",
+  "credits": "Anonymous",
+  "artifact": {
+    "path": "dev.herdr.generated.neon-stack.riceapp",
+    "bytes": 2459027,
+    "sha256": "7799c3688a8b5cd4bcdc1cab403c0b055ec93cdd1360f346a5e0aed2d5334040"
+  },
+  "media": [
+    {
+      "role": "icon",
+      "path": "media/icon.webp",
+      "alt": "Tetris app icon",
+      "width": 256,
+      "height": 256,
+      "license": "MIT",
+      "credits": "Original RiceWM sharing icon.",
+      "sha256": "87af9e310f001d1ae051e16f5d897e365ca18fc043919f44d690f142e79f45e5",
+      "bytes": 3532
+    },
+    {
+      "role": "screenshot",
+      "path": "media/screenshot-1.webp",
+      "alt": "Tetris — app screenshot",
+      "width": 800,
+      "height": 510,
+      "license": "Depicted assets retain their original licences",
+      "credits": "Screenshot provided by the publisher. Depicted assets retain their original licences.",
+      "sha256": "f9cb61851d7d33bad5c6e32eee0e0de3b3dab907aee51be208ffc45ed17af530",
+      "bytes": 223750
+    }
+  ]
+}

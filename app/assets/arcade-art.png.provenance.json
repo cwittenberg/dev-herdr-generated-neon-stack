@@ -1,0 +1,28 @@
+{
+  "schema": "ricewm.generated-artwork/v1",
+  "provider": "codex",
+  "model": "gpt-image-2",
+  "endpoint": "https://chatgpt.com/backend-api/codex/images/generations",
+  "prompt": "Abstract premium neon arcade side-panel artwork for a minimalist Tetris game, dark midnight navy background with a few elegant luminous cyan violet coral tetromino glass shapes floating on the far edges, central area very dark and quiet, no text no UI no letters, clean precise geometric sophistication.",
+  "artDirection": "Neon Stack original identity: restrained glass block geometry, midnight navy with cyan violet coral glow.",
+  "purpose": "illustration",
+  "effectivePrompt": "Game art direction: Neon Stack original identity: restrained glass block geometry, midnight navy with cyan violet coral glow.\n\nAsset purpose: illustration\n\nAbstract premium neon arcade side-panel artwork for a minimalist Tetris game, dark midnight navy background with a few elegant luminous cyan violet coral tetromino glass shapes floating on the far edges, central area very dark and quiet, no text no UI no letters, clean precise geometric sophistication.\n\nProduce polished production artwork consistent with the references. Keep captions and UI labels out of the artwork; the game renders readable text separately.",
+  "background": "opaque",
+  "size": "1024x1024",
+  "quality": "high",
+  "turnId": "249f1f70-ced7-4f20-b844-52e5ccbd08f6",
+  "requestId": null,
+  "generationId": "3270971a-aba6-4898-809a-40759761bcec",
+  "requestAttempts": 1,
+  "references": [],
+  "createdAt": "2026-10-27T12:40:26.946Z",
+  "path": "assets/arcade-art.png",
+  "sha256": "a7267a358a7faa3943fb1d1d94cc0cd5cc6f7f69e479abd041c60ec4d8b16696",
+  "bytes": 1672005,
+  "inspection": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024,
+    "decode": "openImageEngine; request a bounded sample before making an atlas/model texture"
+  }
+}

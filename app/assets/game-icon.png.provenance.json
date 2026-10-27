@@ -1,0 +1,32 @@
+{
+  "schema": "ricewm.generated-artwork/v1",
+  "provider": "codex",
+  "model": "gpt-image-2",
+  "endpoint": "https://chatgpt.com/backend-api/codex/images/generations",
+  "prompt": "Original polished launcher icon for Neon Stack, a sleek Tetris game: a luminous cyan T tetromino hovering above a compact arrangement of violet and coral glass blocks, dark midnight backing, crisp geometric bevels, readable strong silhouette, no letters or text, transparent outside the icon.",
+  "artDirection": "Minimal premium neon arcade; midnight navy, electric cyan, violet and coral, sharp clean geometric blocks with restrained glow.",
+  "purpose": "icon",
+  "effectivePrompt": "Game art direction: Minimal premium neon arcade; midnight navy, electric cyan, violet and coral, sharp clean geometric blocks with restrained glow.\n\nAsset purpose: icon\n\nOriginal polished launcher icon for Neon Stack, a sleek Tetris game: a luminous cyan T tetromino hovering above a compact arrangement of violet and coral glass blocks, dark midnight backing, crisp geometric bevels, readable strong silhouette, no letters or text, transparent outside the icon.\n\nProduce polished production artwork consistent with the references. Keep captions and UI labels out of the artwork; the game renders readable text separately.",
+  "background": "transparent",
+  "size": "1024x1024",
+  "quality": "high",
+  "turnId": "97c3b79a-922c-4b42-ba89-71bb2a6641ed",
+  "requestId": null,
+  "generationId": "815beabe-d0e1-4781-9d23-4c7fc1d9dfe0",
+  "requestAttempts": 1,
+  "references": [],
+  "createdAt": "2026-10-27T12:39:53.374Z",
+  "iconRendition": {
+    "originalSha256": "c5fedb5e437a2f379834cf95c5e3b18a6b9ce12b7730d031816b939d06559249",
+    "size": 64
+  },
+  "path": "assets/game-icon.png",
+  "sha256": "b7909eca135be4e66e3596babc87ae687584e37cfa68d238ca2c0af1e90bff07",
+  "bytes": 10849,
+  "inspection": {
+    "format": "png",
+    "width": 64,
+    "height": 64,
+    "decode": "openImageEngine; request a bounded sample before making an atlas/model texture"
+  }
+}

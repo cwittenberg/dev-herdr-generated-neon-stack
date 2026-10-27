@@ -1,0 +1,84 @@
+{
+  "schema": "ricewm.app/v1",
+  "sdk": {
+    "version": "1.0.0"
+  },
+  "id": "dev.herdr.generated.neon-stack",
+  "name": "Tetris",
+  "version": "1.0.0",
+  "description": "",
+  "entry": "app.mjs",
+  "icon": "assets/game-icon.png",
+  "iconName": "view-grid",
+  "categories": [
+    "Game"
+  ],
+  "mimeTypes": [],
+  "capabilities": [
+    {
+      "id": "hardDrop",
+      "title": "Instant drop",
+      "description": "Drop and lock the active piece during play.",
+      "input": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      },
+      "output": {
+        "type": "boolean"
+      },
+      "effect": "mutation",
+      "undoable": false
+    },
+    {
+      "id": "newGame",
+      "title": "New game",
+      "description": "Clear the board and start a fresh paused game.",
+      "input": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      },
+      "output": {
+        "type": "boolean"
+      },
+      "effect": "mutation",
+      "undoable": false
+    }
+  ],
+  "window": {
+    "profile": "default",
+    "width": 1000,
+    "height": 610
+  },
+  "permissions": {
+    "services": [
+      "assets.read",
+      "assets.stat",
+      "compute.open",
+      "compute.invoke",
+      "compute.cancel",
+      "compute.close",
+      "capabilities.register",
+      "capabilities.respond",
+      "capabilities.unregister",
+      "actions.register",
+      "actions.unregister"
+    ],
+    "jobs": {
+      "tools": []
+    },
+    "network": {
+      "origins": []
+    },
+    "bus": {
+      "publish": [],
+      "subscribe": [
+        "dev.herdr.generated.neon-stack/capabilities/invoke",
+        "dev.herdr.generated.neon-stack/actions/invoke"
+      ],
+      "provide": [],
+      "call": []
+    }
+  }
+}
